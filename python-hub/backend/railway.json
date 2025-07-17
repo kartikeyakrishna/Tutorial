@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "wsgi.py",
+      "use": "@railway/python"
+    }
+  ],
+  "deploy": {
+    "startCommand": "flask run --host=0.0.0.0 --port=5000"
+  }
+} 
